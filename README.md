@@ -133,6 +133,7 @@ docker build --build-arg TERRAFORM_VERSION=1.1.9 -t terraform:v1.1 .
 
 ### Changing base OS versions
 
+
 The base OS can be changed by using the `Dockerfile-fedora` file. For example:
 
 ```shell
