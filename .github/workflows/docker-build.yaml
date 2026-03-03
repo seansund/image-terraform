@@ -35,13 +35,14 @@ jobs:
           - alpine
           - fedora
         terraform:
-          - 1.6.3
-          - 1.7.7
-          - 1.8.7
-          - 1.9.0
+          - 1.7.10
+          - 1.8.11
+          - 1.9.4
+          - 1.10.9
+          - 1.11.5
 
     env:
-      TERRAFORM_LATEST: "1.9.0"
+      TERRAFORM_LATEST: "1.11.5"
 
     steps:
       - name: Checkout
